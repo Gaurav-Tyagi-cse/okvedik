@@ -1,0 +1,897 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>OK-VEDIK Home</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- favicon -->
+  <link href="img/ok-vedik.png" rel="icon">
+
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="lib/animate/animate.min.css"/>
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                <span class="sr-only">Loading...</span>
+            </div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid topbar bg-light px-5 py-1 d-none d-lg-block mb-3 mt-3">
+            <div class="row gx-0 align-items-center">
+                <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                    <div class="d-flex flex-wrap">
+                        <a href="#" class="text-muted small me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Thanesar Kurukshetra Haryana 136118</a>
+                        <a href="tel:+01234567890" class="text-muted small me-4"><i class="fas fa-phone-alt text-primary me-2"></i>+91 74049 41005</a>
+                        <a href="mailto:example@gmail.com" class="text-muted small me-0"><i class="fas fa-envelope text-primary me-2"></i>okvedik@gmail.com</a>
+                    </div>
+                </div>
+
+                <!-- <div class="col-lg-4 text-center text-lg-end">
+                    <div class="d-inline-flex align-items-center" style="height: 45px;">
+                        <a href="#"><small class="me-3 text-dark"><i class="fa fa-user text-primary me-2"></i>Register</small></a>
+                        <a href="#"><small class="me-3 text-dark"><i class="fa fa-sign-in-alt text-primary me-2"></i>Login</small></a>
+                        <div class="dropdown">
+                            <a href="#" class="dropdown-toggle text-dark" data-bs-toggle="dropdown"><small><i class="fa fa-home text-primary me-2"></i> My Dashboard</small></a>
+                            <div class="dropdown-menu rounded">
+                                <a href="#" class="dropdown-item"><i class="fas fa-user-alt me-2"></i> My Profile</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-comment-alt me-2"></i> Inbox</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-bell me-2"></i> Notifications</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-cog me-2"></i> Account Settings</a>
+                                <a href="#" class="dropdown-item"><i class="fas fa-power-off me-2"></i> Log Out</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+        <!-- Navbar & Hero Start -->
+        <div class="container-fluid position-relative p-0 " style="background: linear-gradient(90deg,#90EE90,#D3D3D3);" >
+            <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"  style="background: linear-gradient(90deg,#90EE90,#D3D3D3);" >
+                <a href="" class="navbar-brand p-0"   >
+                    <img  src="img/ok-vedik.png" alt="Logo" >
+                    <h4 class="text-primary" style="margin-top: -52px; margin-left: 100px;">OKVEDIK </h4>
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" >
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse" >
+                    <div class="navbar-nav ms-auto py-0 ">
+                        <a href="index.html" class="nav-item nav-link active ">Home</a>
+                        <a href="about.html" class="nav-item nav-link">About Us</a>
+                        <a href="service.html" class="nav-item nav-link"> Our Services</a>
+                        <a href="our-product.html" class="nav-item nav-link">Our Product</a>
+                        <a href="login.html" class="nav-item nav-link">Log In</a>
+
+
+                        <!-- <div class="nav-item dropdown">
+                            <a href="#" class="nav-link" data-bs-toggle="dropdown">
+                                <span class="dropdown-toggle">Pages</span>
+                            </a>
+
+                            <div class="dropdown-menu m-0">
+                                <a href="feature.html" class="dropdown-item">Our Features</a>
+                                <a href="team.html" class="dropdown-item">Our team</a>
+                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                <a href="offer.html" class="dropdown-item">Our offer</a>
+                                <a href="FAQ.html" class="dropdown-item">FAQs</a>
+                                <a href="404.html" class="dropdown-item">404 Page</a>
+                            </div>
+                            
+                        </div> -->
+
+                        <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+                    </div>
+                    <a href="#" class="btn btn-primary rounded-pill py-2 px-4 my-3 my-lg-0 flex-shrink-0">Join Now</a>
+                </div>
+            </nav>
+
+            <!-- Carousel Start -->
+
+            <div class="header-carousel owl-carousel">
+
+                <div class="header-carousel-item">
+                    <video src="img/Vermicompost.mp4" class="w-100  "  controls autoplay muted> </video>
+                    <!-- <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Image"> -->
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row gy-0 gx-5">
+                                <div class="col-lg-0 col-xl-5"></div>
+                                <div class="col-xl-7 animated fadeInLeft">
+                                    <div class="text-sm-end text-md-end">
+                                        <h4 class="text-primary text-uppercase fw-bold mb-4"> OkVEDIK  </h4>
+                                        <h3 class="display-7 text-uppercase text-white mb-4">BY THE FARMERS
+                                            FOR THE FARMERS </h3>
+
+                                        <!-- <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy... 
+                                        </p> -->
+
+                                        <!-- <div class="d-flex justify-content-center justify-content-md-end flex-shrink-0 mb-4">
+                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
+                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
+                                        </div> -->
+
+                                        <!-- <div class="d-flex align-items-center justify-content-center justify-content-md-end">
+                                            <h2 class="text-white me-2">Follow Us:</h2>
+                                            <div class="d-flex justify-content-end ms-2">
+                                                <a class="btn btn-md-square btn-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-twitter"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-instagram"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div> -->
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="header-carousel-item">
+                    <img src="img/carousel-2.jpg" class="img-fluid w-100" alt="Image">
+                    <div class="carousel-caption">
+                        <div class="container">
+                            <div class="row g-5">
+                                <div class="col-12 animated fadeInUp">
+                                    <div class="text-center">
+                                        <h4 class="text-primary text-uppercase fw-bold mb-4">Welcome To Stocker</h4>
+                                        <h1 class="display-4 text-uppercase text-white mb-4">Invest your money with higher return</h1>
+                                        <p class="mb-5 fs-5">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy... 
+                                        </p>
+                                        <div class="d-flex justify-content-center flex-shrink-0 mb-4">
+                                            <a class="btn btn-light rounded-pill py-3 px-4 px-md-5 me-2" href="#"><i class="fas fa-play-circle me-2"></i> Watch Video</a>
+                                            <a class="btn btn-primary rounded-pill py-3 px-4 px-md-5 ms-2" href="#">Learn More</a>
+                                        </div>
+                                        <div class="d-flex align-items-center justify-content-center">
+                                            <h2 class="text-white me-2">Follow Us:</h2>
+                                            <div class="d-flex justify-content-end ms-2">
+                                                <a class="btn btn-md-square btn-light rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-twitter"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle mx-2" href=""><i class="fab fa-instagram"></i></a>
+                                                <a class="btn btn-md-square btn-light rounded-circle ms-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+
+            <!-- Carousel End -->
+        </div>
+        <!-- Navbar & Hero End -->
+
+
+        <!-- Abvout Start -->
+        <div class="container-fluid about py-5" style="background: linear-gradient(90deg,#90EE90,#D3D3D3);" >
+            <div class="container py-5">
+                <div class="row g-5 align-items-center">
+                    <div class="col-xl-7 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div>
+                            <h4 class="text-primary">About us</h4>
+                            <!-- <h5 class=" mb-2"> </h5> -->
+                            <p class="mb-4 text-dark">OKVEDIK is India's leading health solutions provider company  and a major player in the Wellness industry, OKVEDIK is driven by a passion to empower the best health and wealth solutions  within all categories of personality peoples. Our story is led by leaders, innovators, philanthropists, and entrepreneurs who cared deeply about giving people the freedom to dream and the means to achieve them too. We've enabled people from all walks of life to dream beyond the ordinary by educating, exploring their potential and giving them a platform where they can rediscover their true selves, furthermore transform into successful entrepreneurs with many more options for better health and wealth solutions.
+                                <br>
+                                The transformation that Modicare has brought in the lives of people is not restricted to only financial freedom but it has also given them a chance to rediscover their confidence and realise their full potential.
+                            </p>
+
+                            <!-- <div class="row g-4">
+                                <div class="col-md-6 col-lg-6 col-xl-6">
+                                    <div class="d-flex">
+                                        <div><i class="fas fa-lightbulb fa-3x text-primary"></i></div>
+                                        <div class="ms-4">
+                                            <h4>Business Consuluting</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 col-lg-6 col-xl-6">
+                                    <div class="d-flex">
+                                        <div><i class="bi bi-bookmark-heart-fill fa-3x text-primary"></i></div>
+                                        <div class="ms-4">
+                                            <h4>Year Of Expertise</h4>
+                                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-6">
+                                    <a href="#" class="btn btn-primary rounded-pill py-3 px-5 flex-shrink-0">Discover Now</a>
+                                </div>
+                                <div class="col-sm-6">
+                                    <div class="d-flex">
+                                        <i class="fas fa-phone-alt fa-2x text-primary me-4"></i>
+                                        <div>
+                                            <h4>Call Us</h4>
+                                            <p class="mb-0 fs-5" style="letter-spacing: 1px;">+01234567890</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="col-xl-5 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="bg-primary rounded position-relative overflow-hidden">
+                            <img src="img/okvedik/bag-4.jpg" class="img-fluid rounded w-100" alt="">
+                            
+                            <!-- <div class="" style="position: absolute; top: -15px; right: -15px;">
+                                <img src="img/ok-frouit-2.jpg" class="img-fluid" style="width: 150px; height: 150px; opacity: 0.7;" alt="">
+                            </div> -->
+
+                            <!-- <div class="" style="position: absolute; top: -20px; left: 10px; transform: rotate(90deg);">
+                                <img src="img/ok-frouit-4.jpg" class="img-fluid" style="width: 100px; height: 150px; opacity: 0.9;" alt="">
+                            </div> -->
+
+                            <!-- <div class="rounded-bottom">
+                                <img src="img/okvedik/vegitable-9.jpg" class="img-fluid rounded-bottom w-100" alt="">
+                            </div> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Services Start -->
+        <div class="container-fluid service pb-5" style="background: linear-gradient(360deg,#90EE90 ,white,#D3D3D3);">
+            <div class="container pb-5 ">
+                <div class="text-center mx-auto pb-5  wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h1 class="text-primary  ">Our Product Category</h1>
+                    <!-- <h1 class="display-5 mb-4">We Services provided best offer</h1> -->
+                    <p class="mb-0"> Our story is led by leaders, innovators, philanthropists, and entrepreneurs who cared deeply about giving people the freedom to dream and the means to achieve them too.
+                    </p>
+                </div>
+                <div class="row g-4"  >
+
+                    <!-- <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/okvedik/download.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4"> Avoids Soil Compaction </a>
+                                <p class="mb-4">Unlike traditional containers, the flexible structure of fabric grow bags prevents soil compaction, helping plants absorb nutrients more efficiently. This supports better plant health and growth.
+
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/oraganic-1.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Organic</a>
+                                <p class="mb-4"> Organic farming is a method of agriculture that focuses on producing food naturally, without the use of synthetic chemicals such as pesticides, herbicides, and fertilizers.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/okvedik/vegitable-4.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Agriculture </a>
+                                <p class="mb-4">
+                                    Could you clarify what specific information or details you're looking for about agriculture? For example, are you asking for a general overview .Let me know, and I can provide the relevant information!
+
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/okvedik/vegitable.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">  Drainage & Aeration </a>
+                                <p class="mb-4"> The breathable fabric used in grow bags allows for better drainage and airflow,  waterlogging and promoting healthy root growth by allowing roots to "air prune" (stop circling inside the container).
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/okvedik/vegitable-1.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Space-Saving & Portable </a>
+                                <p class="mb-4"> Grow bags are perfect for small spaces like patios, balconies, or urban gardens. They are lightweight and portable, making it easy to move your plants to ideal spots for sunlight or protection from weather.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/okvedik/vegitable-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4 "> Versatile Sizes  </a>
+                                <p class="mb-4">Grow bags come in various sizes, allowing you to grow different types of vegetables. Smaller bags (5-10 gallons) are ideal for herbs and leafy greens, while larger bags (15-20 gallons) are suited for tomatoes.
+                                </p>
+                            </div>
+                        </div>
+                    </div> -->
+                    
+
+
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/okvedik/pads.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">  Improved Hygiene and Odor Control </a>
+                                <p class="mb-4">The anion strip in these pads is said to release negative ions, which may help to inhibit the growth of bacteria and reduce unpleasant odors during menstruation. This feature promotes a cleaner, more comfortable feeling .
+                                </p>
+                                <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/okvedik/pads-2.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4">Enhanced Comfort and Absorption </a>
+                                <p class="mb-4"> Anion sanitary pads are designed to be highly absorbent, providing good protection against leaks. Many brands use soft, breathable materials that enhance comfort and prevent irritation, making them suitable for sensitive skin.
+                                </p>
+                                <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="service-item">
+                            <div class="service-img">
+                                <img src="img/okvedik/pads-3.jpg" class="img-fluid rounded-top w-100" alt="Image">
+                            </div>
+                            <div class="rounded-bottom p-4">
+                                <a href="#" class="h4 d-inline-block mb-4 text-uppercase"> Potential Health Benefits  </a>
+                                <p class="mb-4">Some users report that anion pads help reduce menstrual cramps, balance pH levels, overall well-being during periods. While scientific  is limited, the idea is that negative ions can help promote circulation and reduce inflammation.
+                                </p>
+                                <!-- <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a> -->
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <!-- Services End -->
+
+     
+        <!-- Features Start -->
+
+        <div class="container-fluid feature pb-5" style="background: linear-gradient(180deg,#90EE90,#D3D3D3);">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary">Our Features</h4>
+                    <h1 class="display-5 mb-4">Our Core Value</h1>
+
+                    <!-- <p class="mb-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tenetur adipisci facilis cupiditate recusandae aperiam temporibus corporis itaque quis facere, numquam, ad culpa deserunt sint dolorem autem obcaecati, ipsam mollitia hic.
+                    </p> -->
+                    
+                </div>
+                <div class="row g-4">
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4 ">
+                                <img style="width: 170px; height: 220px;" src="img/New-Project-1.webp" alt="">
+                                <!-- <i class="fas fa-chart-line fa-4x text-primary"></i> -->
+                            </div>
+                            <h4>Innovation </h4>
+
+                            <!-- <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            </p> -->
+
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <img style="width: 170px; height: 220px;" src="img/New-Project-2.webp" alt="">
+
+                                <!-- <i class="fas fa-university fa-4x text-primary"></i> -->
+                            </div>
+
+                            <h4> Transparent  </h4>
+
+                            <!-- <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            </p> -->
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <img style="width: 170px; height: 220px;" src="img/New-Project-3.webp" alt="">
+
+                                <!-- <i class="fas fa-file-alt fa-4x text-primary"></i> -->
+                            </div>
+                            <h4>care for health</h4>
+                            <!-- <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            </p> -->
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                        <div class="feature-item p-4">
+                            <div class="feature-icon p-4 mb-4">
+                                <img style="width: 170px; height: 220px;" src="img/New-Project-4.webp" alt="">
+
+                                <!-- <i class="fas fa-hand-holding-usd fa-4x text-primary"></i> -->
+                            </div>
+                            <h4>Honesty & Ethical</h4>
+
+                            <!-- <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea hic laborum odit pariatur...
+                            </p> -->
+
+                            <a class="btn btn-primary rounded-pill py-2 px-4" href="#">Learn More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Features End -->
+
+
+        <!-- Offer Start -->
+
+        <!-- Include Bootstrap CSS -->
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+<div class="container offer-section pb-5 "  >
+    <div class="container pb-5">
+        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+            <h4 class="text-primary mt-3">Our service</h4>
+        </div>
+
+        <div class="row g-5 align-items-center">
+            <!-- Vermicomposting Section -->
+            <div class="col-lg-4 col-sm-12 fadeInLeft" style="border: 1px black solid; border-radius: 10px;" data-wow-delay="0.2s">
+                <h2>Vermicomposting</h2>
+                <h6>
+                    Vermicomposting is a sustainable and natural process of composting organic waste using earthworms. In farming, vermicomposting involves harnessing the natural digestive abilities of certain types of earthworms to break down organic materials into nutrient-rich compost that can be used to improve soil health and fertility.
+                </h6>
+                <img class="img-fluid w-100" src="img/comercial.jpg" alt="Compost Image">
+                <p>
+                    Vermicomposting relies on a species of earthworms, typically red wigglers (Eisenia fetida) or red earthworms (Lumbricus rubellus), which is a dark, crumbly, and nutrient-rich material.
+                </p>
+            </div>
+
+            <!-- Video Section -->
+            <div class="col-lg-8 col-sm-12">
+                <div class="container ok-vedik-video">
+                    <video class="w-100" style="border-radius: 10px;" src="img/Vermicompost.mp4" muted controls autoplay ></video>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+        <!-- Offer End -->
+
+
+        <!-- FAQs Start -->
+
+        <div class="container-fluid faq-section pb-5" style="background: linear-gradient(90deg,#90EE90 ,rgb(204, 165, 165),#D3D3D3);">
+            <div class="container pb-5 overflow-hidden">
+
+                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+
+                    <!-- <h4 class="text-primary mt-3">Generation Of Farming ADVANTAGE</h4>
+                    <h2 class="display-6 mb-4"> By The Farmers For The Farmers</h2> -->
+                    
+                </div>
+                
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <div class="accordion accordion-flush bg-light rounded p-5" id="accordionFlushSection">
+                            <div class="accordion-item rounded-top">
+                                <h2 class="accordion-header" id="flush-headingOne">
+                                    <button class="accordion-button collapsed rounded-top" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                                   Certificate Organized products
+                                    </button>
+                                </h2>
+
+                                <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">Vedik’s certified products are crafted using traditional Ayurvedic methods, ensuring natural and safe formulations. Their range is certified for quality and ethically sourced ingredients, emphasizing sustainability. The products are popular for promoting wellness in an eco-conscious way​
+                                        .</div>
+                                </div>
+                                
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                                        Farmer Cooperatives:
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body"> Farmer cooperatives are organizations where farmers collaborate to increase their bargaining power, reduce costs, and improve market access. These cooperatives help farmers pool resources, share knowledge, and gain better prices for their products. They play a crucial role in promoting sustainable agricultural practices and economic growth in rural communities.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                                        Advocacy and Representation:
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body"> 
+                                        Advocacy and representation involve promoting the rights and interests of individuals or groups, ensuring their voices are heard in decision-making processes. These efforts help influence policies, raise awareness, and drive social change on issues affecting the community.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFour" aria-expanded="false" aria-controls="flush-collapseFour">
+                                        Sustainable Agriculture and Conservation:
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body">Sustainable agriculture and conservation focus on farming practices that maintain soil health, reduce environmental impact, and conserve natural resources. These methods include crop rotation, organic farming, and habitat preservation to promote biodiversity.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="flush-headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseFive" aria-expanded="false" aria-controls="flush-collapseFive">
+                                        Direct Market Access:
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseFive" class="accordion-collapse collapse" aria-labelledby="flush-headingFive" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body"> Vedik provides direct market access by connecting consumers with authentic Ayurvedic products, bypassing intermediaries. This approach ensures fresher products, better pricing, and a more transparent relationship between the brand and its customers. Direct access also supports Vedik's mission of making wellness products more accessible and sustainable for health-conscious consumers.</div>
+                                </div>
+                            </div>
+                            <div class="accordion-item rounded-bottom">
+                                <h2 class="accordion-header" id="flush-headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseSix" aria-expanded="false" aria-controls="flush-collapseSix">
+                                        Peer-to-Peer Learning:
+                                    </button>
+                                </h2>
+                                <div id="flush-collapseSix" class="accordion-collapse collapse" aria-labelledby="flush-headingSix" data-bs-parent="#accordionFlushSection">
+                                    <div class="accordion-body"> 
+                                        Peer-to-peer learning is a collaborative approach where individuals share knowledge and skills directly with one another, enhancing mutual understanding and practical skills. It fosters active engagement, as participants both teach and learn, benefiting from diverse perspectives.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+                        <div class="bg-primary rounded">
+                            <img src="img/former.jpg" class="img-fluid w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- FAQs End -->
+
+
+   
+
+        <!-- Testimonial Start -->
+        <div class="container-fluid testimonial pb-3 " style="background: linear-gradient(270deg,#90EE90 ,#94947d,#D3D3D3);">
+            <div class="container pb-5">
+                <div class="text-center mx-auto pb-5 wow fadeInUp " data-wow-delay="0.2s" style="max-width: 800px;">
+                    <h4 class="text-primary  ">Testimonial</h4>
+                    <h1 class="display-5 mb-4">Our Clients Riviews</h1>
+                    <p class="mb-0">Many customers appreciate the quality and effectiveness of Vedik's products, especially for skin care and stress relief. Products with ingredients like Ashwagandha and Neem are often praised for their calming and health benefits.
+                    </p>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="testimonial-item">
+                        <div class="testimonial-quote-left">
+                            <i class="fas fa-quote-left fa-2x"></i>
+                        </div>
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-1.jpg" class="img-fluid" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p class="mb-0"> Users frequently mention Vedik’s offerings as good value for money, highlighting both the affordability and efficacy of their products, which makes Ayurvedic wellness more accessible​.
+
+                            </p>
+                        </div>
+                        <div class="testimonial-title">
+                            <div>
+                                <h4 class="mb-0">Person Name</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-quote-right">
+                            <i class="fas fa-quote-right fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-quote-left">
+                            <i class="fas fa-quote-left fa-2x"></i>
+                        </div>
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-2.jpg" class="img-fluid" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p class="mb-0">Vedik's wide range of options, from skincare to herbal supplements, has received positive feedback. Customers enjoy the diverse choices available for different wellness needs.
+
+                            </p>
+                        </div>
+                        <div class="testimonial-title">
+                            <div>
+                                <h4 class="mb-0">Person Name</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-quote-right">
+                            <i class="fas fa-quote-right fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-quote-left">
+                            <i class="fas fa-quote-left fa-2x"></i>
+                        </div>
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-3.jpg" class="img-fluid" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p class="mb-0"> The company generally receives good feedback for customer service. Prompt and helpful support is commonly noted, although some customers have mentioned slower response times on occasion​
+
+                            </p>
+                        </div>
+                        <div class="testimonial-title">
+                            <div>
+                                <h4 class="mb-0">Person Name</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-quote-right">
+                            <i class="fas fa-quote-right fa-2x"></i>
+                        </div>
+                    </div>
+                    <div class="testimonial-item">
+                        <div class="testimonial-quote-left">
+                            <i class="fas fa-quote-left fa-2x"></i>
+                        </div>
+                        <div class="testimonial-img">
+                            <img src="img/testimonial-2.jpg" class="img-fluid" alt="Image">
+                        </div>
+                        <div class="testimonial-text">
+                            <p class="mb-0"> Many customers are drawn to Vedik’s focus on natural and ethically sourced ingredients. This aspect resonates well with consumers looking for sustainable and traditional health solutions​
+
+                            </p>
+                        </div>
+                        <div class="testimonial-title">
+                            <div>
+                                <h4 class="mb-0">Person Name</h4>
+                                <p class="mb-0">Profession</p>
+                            </div>
+                            <div class="d-flex text-primary">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                        <div class="testimonial-quote-right">
+                            <i class="fas fa-quote-right fa-2x"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonial End -->
+
+        <!-- Footer Start -->
+
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5 border-start-0 border-end-0" style="border: 1px solid; border-color: rgb(255, 255, 255, 0.08);">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-4">
+                        <div class="footer-item">
+                            <a href="index.html" class="p-0">
+                                <h4 class="text-white"> OKVEDIK</h4>
+                                <!-- <img src="img/ok-vedik.png" alt="Logo"> -->
+                            </a>
+                            <p class="mb-4 text-light"> OKVEDIK is India's leading health solutions provider company and a major player in the Wellness industry, OKVEDIK is driven by a passion to empower the best health and wealth solutions within all categories of personality peoples.</p>
+
+                            <!-- <div class="d-flex">
+                                <a href="#" class="bg-primary d-flex rounded align-items-center py-2 px-3 me-2">
+                                    <i class="fas fa-apple-alt text-white"></i>
+                                    <div class="ms-3">
+                                        <small class="text-white">Download on the</small>
+                                        <h6 class="text-white">App Store</h6>
+                                    </div>
+                                </a>
+                                <a href="#" class="bg-dark d-flex rounded align-items-center py-2 px-3 ms-2">
+                                    <i class="fas fa-play text-primary"></i>
+                                    <div class="ms-3">
+                                        <small class="text-white">Get it on</small>
+                                        <h6 class="text-white">Google Play</h6>
+                                    </div>
+                                </a>
+                            </div> -->
+
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-2">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4 " >Quick Links</h4>
+                            <a href="about.html" style="color: white;"><i class="fas fa-angle-right me-2"></i>  About Us</a>
+                            <a href="#" style="color: white;"><i class="fas fa-angle-right me-2"></i> Feature</a>
+                            <a href="service.html" style="color: white;"><i class="fas fa-angle-right me-2"></i> Service</a>
+                            <a href="our-product.html" style="color: white;"><i class="fas fa-angle-right me-2"></i> Product</a>
+                            <a href="login.html" style="color: white;"><i class="fas fa-angle-right me-2"></i> Log In</a>
+                            <a href="contact.html" style="color: white;"><i class="fas fa-angle-right me-2"></i> Contact us</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Support</h4>
+                            <a href="#" style="color: white;"><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+                            <a href="#" style="color: white;"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                            <a href="#" style="color: white;"><i class="fas fa-angle-right me-2"></i> Disclaimer</a>
+                            <a href="#" style="color: white;"><i class="fas fa-angle-right me-2"></i> Support</a>
+                            <a href="#" style="color: white;"><i class="fas fa-angle-right me-2"></i> FAQ</a>
+                            <a href="#" style="color: white;"><i class="fas fa-angle-right me-2"></i> Help</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item">
+                            <h4 class="text-white mb-4">Contact Info</h4>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-map-marker-alt text-primary me-3"></i>
+                                <p class="text-white mb-0">138/1 Near Shekhchilli Tomb,Thanesar,Kurukshetra Haryana 136118 </p>
+                                <!-- <p class="text-white mb-0"> </p> -->
+
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fas fa-envelope text-primary me-3"></i>
+                                <p class="text-white mb-0">okvedik@gmail.com</p>
+                            </div>
+                            <div class="d-flex align-items-center">
+                                <i class="fa fa-phone-alt text-primary me-3"></i>
+                                <p class="text-white mb-0">+91 74049 41005 </p>
+                            </div>
+
+                            <!-- <div class="d-flex align-items-center mb-4">
+                                <i class="fab fa-firefox-browser text-primary me-3"></i>
+                                <p class="text-white mb-0">Yoursite@ex.com</p>
+                            </div> -->
+
+                            <div class="d-flex">
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-facebook-f text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-twitter text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-3" href="#"><i class="fab fa-instagram text-white"></i></a>
+                                <a class="btn btn-primary btn-sm-square rounded-circle me-0" href="#"><i class="fab fa-linkedin-in text-white"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer End -->
+        
+        <!-- Copyright Start -->
+
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center justify-content-center">
+                    <div class="col-md-7  text-md-start mb-md-0 ">
+                        <span class="text-white"> <a href="#" class=" text-white"> <i class="fas fa-copyright text-light me-2"></i> Copyright OK VEDIK THE COMPLETE WELLNESS  </a>, All right reserved.
+                        </span>
+                    </div>
+                    <div class="col-md-4  text-light">
+                        
+                        Designed and Maintained By BTPL 
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Copyright End -->
+
+
+        <!-- Include Bootstrap JS and jQuery -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square rounded-circle back-to-top"><i class="fa fa-arrow-up"></i></a>   
+
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/lightbox/js/lightbox.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
